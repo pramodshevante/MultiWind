@@ -22,6 +22,8 @@ public class MultiWin {
         // Automatically downloads and sets ChromeDriverss
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver(); 
+        op.addArguments("--headless=new");
+        op.addArguments("--remote-allow-origins=*");
 
         
 
