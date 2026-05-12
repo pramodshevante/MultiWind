@@ -19,7 +19,7 @@ public class MultiWin {
     @BeforeClass
     public void setup() {
 
-        // Automatically downloads and sets ChromeDriver
+        // Automatically downloads and sets ChromeDriverss
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver(); 
 
